@@ -1,0 +1,60 @@
+Import Plotly
+
+Installation
+plotly may be installed using pip:
+
+$ pip install plotly==5.23.0
+or conda:
+
+$ conda install -c plotly plotly=5.23.0
+This package contains everything you need to write figures to standalone HTML files.
+
+Note: No internet connection, account, or payment is required to use plotly.py. Prior to version 4, this library could operate in either an "online" or "offline" mode. The documentation tended to emphasize the online mode, where graphs get published to the Chart Studio web service. In version 4, all "online" functionality was removed from the plotly package and is now available as the separate, optional, chart-studio package (See below). plotly.py version 4 is "offline" only, and does not include any functionality for uploading figures or data to cloud services.
+
+import plotly.express as px
+fig = px.bar(x=["a", "b", "c"], y=[1, 3, 2])
+fig.write_html('first_figure.html', auto_open=True)
+
+
+
+JupyterLab Support
+For use in JupyterLab, install the jupyterlab and ipywidgets packages using pip:
+
+$ pip install "jupyterlab>=3" "ipywidgets>=7.6"
+or conda:
+
+$ conda install "jupyterlab>=3" "ipywidgets>=7.6"
+You'll need jupyter-dash to add widgets such as sliders, dropdowns, and buttons to Plotly charts in JupyterLab.
+
+Install jupyter-dash using pip:
+
+$ pip install jupyter-dash
+or conda:
+
+$ conda install -c conda-forge -c plotly jupyter-dash
+These packages contain everything you need to run JupyterLab...
+
+$ jupyter lab
+and display plotly figures inline using the plotly_mimetype renderer...
+
+import plotly.express as px
+fig = px.bar(x=["a", "b", "c"], y=[1, 3, 2])
+fig.show()
+
+
+
+Jupyter Notebook Support
+For use in the classic Jupyter Notebook, install the notebook and ipywidgets packages using pip:
+
+$ pip install "notebook>=5.3" "ipywidgets>=7.5"
+or conda:
+
+$ conda install "notebook>=5.3" "ipywidgets>=7.5"
+These packages contain everything you need to run a Jupyter notebook...
+
+$ jupyter notebook
+and display plotly figures inline using the notebook renderer...
+
+import plotly.express as px
+fig = px.bar(x=["a", "b", "c"], y=[1, 3, 2])
+fig.show()
