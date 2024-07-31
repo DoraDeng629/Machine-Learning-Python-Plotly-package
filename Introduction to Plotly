@@ -12,7 +12,7 @@ Introduction to Plotly
 
 Import Plotly
 
-Displaying Plots in Matplotlib
+Displaying Plots in Plotly
 
 Plotly Object Hierarchy
 
@@ -89,6 +89,18 @@ When we want to convey some information to others, there are several ways to do 
 
 In this project, I shed some light on Plotly, which is the basic data visualization tool of Python programming language. Python has different data visualization tools available which are suitable for different purposes. First of all, I will list these data visualization tools and then I will discuss Matplotlib.
 
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+
+Built on top of the Plotly JavaScript library (plotly.js), plotly enables Python users to create beautiful interactive web-based visualizations that can be displayed in Jupyter notebooks, saved to standalone HTML files, or served as part of pure Python-built web applications using Dash. The plotly Python library is sometimes referred to as "plotly.py" to differentiate it from the JavaScript library.
+
+Thanks to deep integration with our Kaleido image export utility, plotly also provides great support for non-web contexts including desktop editors (e.g. QtConsole, Spyder, PyCharm) and static document publishing (e.g. exporting notebooks to PDF with high-quality vector images).
+
+This Getting Started guide explains how to install plotly and related optional pages. Once you've installed, you can use our documentation in three main ways:
+
+You jump right in to examples of how to make basic charts, statistical charts, scientific charts, financial charts, maps, and 3-dimensional charts.
+If you prefer to learn about the fundamentals of the library first, you can read about the structure of figures, how to create and update figures, how to display figures, how to theme figures with templates, how to export figures to various formats and about Plotly Express, the high-level API for doing all of the above.
+You can check out our exhaustive reference guides: the Python API reference or the Figure Reference
+
 2. Overview of Python Visualization Tools
 Python is the preferred language of choice for data scientists. Python have multiple options for data visualization. It has several tools which can help us to visualize the data more effectively. These Python data visualization tools are as follows:-
 
@@ -107,4 +119,7 @@ Python is the preferred language of choice for data scientists. Python have mult
 • pygal
 
 In the following sections, I discuss Plotly as the data visualization tool.
+
+
+
 
