@@ -1,0 +1,23 @@
+Plotly Open Source Graphing Library for Python
+Plotly's Python graphing library makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
+Plotly.py is free and open source and you can view the source, report issues or contribute on GitHub.
+
+Is Plotly for Python Free?
+Plotly's open-source graphing libraries are free to use, work offline and don't require any account registration. Plotly also has a commercial offering called Dash Enterprise.
+
+
+New to Plotly?
+Is Plotly for Python Free?
+    Yes.   Plotly for Python is free and open-source software, licensed under the MIT license. It costs nothing to install and use. You can view the source, report issues or contribute using our Github repository.
+
+Can I use Plotly for Python without signing up to any service?
+    Yes.   You can use Plotly for Python to make, view, and distribute charts and maps without registering for any service, obtaining any token, or creating any account. The one exception is that to view tile maps which use tiles from the Mapbox service (which is optional, as you can use other tile servers), you will need to have a Mapbox token.
+
+Can I use Plotly for Python offline, without being connected to the internet?
+    Yes.   You can use Plotly for Python to make, view, and distribute graphics totally offline. The one exception is that to view tile maps which use tiles from a cloud-hosted service, such as Open Street Maps or Mapbox, you will need a connection to that service. You can view tile maps totally offline if you run your own local tile server and use its tiles.
+
+Is Dash free?
+    Yes.   Plotly's Dash analytics application framework is also free and open-source software, licensed under the MIT license.
+
+Does Plotly also make commercial software?
+    Yes.   Plotly has commercial offerings such as Dash Enterprise.
