@@ -95,4 +95,5 @@ app.run_server(debug=True)
 
 Predicting restaurant's revenue -- Regression & Decision Tree algorithm
 ![image](https://github.com/DoraDeng629/Machine-Learning-Visualization-Python-Plotly-package/blob/main/ML4Regression.png)
+![image](https://github.com/DoraDeng629/Machine-Learning-Visualization-Python-Plotly-package/blob/main/ML3decisiontree.png)
 
