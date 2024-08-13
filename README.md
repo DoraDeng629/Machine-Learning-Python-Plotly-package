@@ -51,15 +51,14 @@ import numpy as np
 app = Dash(__name__)
 
 models = {'Regression': linear_model.LinearRegression,
-          'Decision Tree': tree.DecisionTreeRegressor,
-          'k-NN': neighbors.KNeighborsRegressor}
+          'Decision Tree': tree.DecisionTreeRegressor}
 
 app.layout = html.Div([
     html.H4("Predicting restaurant's revenue"),
     html.P("Select model:"),
     dcc.Dropdown(
         id='dropdown',
-        options=["Regression", "Decision Tree", "k-NN"],
+        options=["Regression", "Decision Tree"],
         value='Decision Tree',
         clearable=False
     ),
@@ -94,6 +93,6 @@ def train_and_display(name):
 
 app.run_server(debug=True)
 
-Predicting restaurant's revenue -- Regression algorithm
+Predicting restaurant's revenue -- Regression & Decision Tree algorithm
 ![image](https://github.com/DoraDeng629/Machine-Learning-Visualization-Python-Plotly-package/blob/main/ML4Regression.png)
 
